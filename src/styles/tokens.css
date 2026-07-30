@@ -1,0 +1,48 @@
+:root {
+  /* Backgrounds */
+  --color-bg-base: #0b0b0b;
+  --color-bg-elevated: #111111;
+  --color-bg-elevated-2: #161616;
+
+  /* Cards */
+  --color-card: #1a1a1a;
+  --color-card-hover: #222222;
+
+  /* Text */
+  --color-text-primary: #f5f2ea;
+  --color-text-secondary: #b9b2a2;
+  --color-text-muted: #7d7669;
+
+  /* Gold */
+  --color-gold: #c89b3c;
+  --color-gold-bright: #e6c878;
+  --color-gold-dim: #8a6a28;
+  --color-gold-soft-glow: rgba(200, 155, 60, 0.35);
+
+  /* Borders */
+  --color-border: rgba(200, 155, 60, 0.28);
+  --color-border-strong: rgba(200, 155, 60, 0.55);
+
+  /* Typography */
+  --font-display: 'Cormorant Garamond', 'Georgia', serif;
+  --font-wordmark: 'Marcellus', 'Georgia', serif;
+  --font-body: 'Jost', 'Segoe UI', sans-serif;
+
+  /* Layout */
+  --max-width: 1200px;
+  --section-padding-y: clamp(4rem, 8vw, 7rem);
+  --section-padding-x: clamp(1.25rem, 5vw, 3rem);
+
+  /* Motion */
+  --ease-elegant: cubic-bezier(0.22, 1, 0.36, 1);
+  --transition-fast: 0.25s var(--ease-elegant);
+  --transition-medium: 0.45s var(--ease-elegant);
+
+  /* Radius */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+
+  /* Shadows */
+  --shadow-card: 0 12px 30px rgba(0, 0, 0, 0.55);
+  --shadow-gold-soft: 0 0 24px var(--color-gold-soft-glow);
+}

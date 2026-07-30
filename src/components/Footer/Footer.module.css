@@ -1,0 +1,68 @@
+.footer {
+  background-color: var(--color-bg-elevated-2);
+  border-top: 1px solid var(--color-border);
+  padding: 3.5rem clamp(1.25rem, 5vw, 3rem) 2rem;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.4rem;
+  text-align: center;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.logo {
+  background: none;
+  border: none;
+  font-family: var(--font-wordmark);
+  font-size: 1.3rem;
+  letter-spacing: 0.08em;
+  color: var(--color-text-primary);
+}
+
+.logo span {
+  color: var(--color-gold);
+}
+
+.tagline {
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+  max-width: 420px;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialLink {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--color-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-gold);
+  font-size: 1.1rem;
+  transition: background-color var(--transition-fast), box-shadow var(--transition-fast), color var(--transition-fast);
+}
+
+.socialLink:hover {
+  background-color: rgba(200, 155, 60, 0.12);
+  box-shadow: var(--shadow-gold-soft);
+  color: var(--color-gold-bright);
+}
+
+.bottom {
+  margin-top: 2.5rem;
+  padding-top: 1.6rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+}
