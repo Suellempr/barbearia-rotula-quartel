@@ -23,7 +23,7 @@ export function Footer() {
             rel="noopener noreferrer"
             aria-label="Falar no WhatsApp"
           >
-            ☏
+            <img src="/icon-telefone.png" alt="" />
           </a>
           <a
             className={styles.socialLink}
@@ -32,7 +32,7 @@ export function Footer() {
             rel="noopener noreferrer"
             aria-label="Ver Instagram"
           >
-            ◎
+            <img src="/icon-instagram.png" alt="" />
           </a>
         </div>
       </div>

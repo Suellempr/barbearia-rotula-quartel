@@ -37,6 +37,8 @@ export function buildWhatsAppScheduleUrl({
     '',
     'Meu nome é:',
     name || '(não informado)',
+    '',
+    'Está disponível?',
   ];
 
   const text = encodeURIComponent(lines.join('\n'));

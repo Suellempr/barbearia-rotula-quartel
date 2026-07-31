@@ -1,11 +1,15 @@
-import { businessConfig } from '../../data/businessConfig';
-import styles from './Location.module.css';
+import { businessConfig } from "../../data/businessConfig";
+import styles from "./Location.module.css";
 
 export function Location() {
   const { address, contact, hours } = businessConfig;
 
   return (
-    <section id="location" className={`section ${styles.location}`} aria-label="Localização">
+    <section
+      id="location"
+      className={`section ${styles.location}`}
+      aria-label="Localização"
+    >
       <div className="section-inner">
         <div className={styles.wrapper}>
           <div className={styles.info}>
@@ -14,7 +18,7 @@ export function Location() {
 
             <div className={styles.infoItem}>
               <span className={styles.infoIcon} aria-hidden="true">
-                ⚑
+                <img src="/icon-endereco.png" alt="" />
               </span>
               <div>
                 <p className={styles.infoTitle}>Endereço</p>
@@ -28,7 +32,7 @@ export function Location() {
 
             <div className={styles.infoItem}>
               <span className={styles.infoIcon} aria-hidden="true">
-                🕐
+                <img src="/icon-relogio.png" alt="" />
               </span>
               <div>
                 <p className={styles.infoTitle}>Funcionamento</p>
@@ -44,7 +48,7 @@ export function Location() {
 
             <div className={styles.infoItem}>
               <span className={styles.infoIcon} aria-hidden="true">
-                ☏
+                <img src="/icon-telefone.png" alt="" />
               </span>
               <div>
                 <p className={styles.infoTitle}>Telefone</p>
@@ -54,7 +58,17 @@ export function Location() {
 
             <div className={styles.infoItem}>
               <span className={styles.infoIcon} aria-hidden="true">
-                ✉
+                <img src="/icon-instagram.png" alt="" />
+              </span>
+              <div>
+                <p className={styles.infoTitle}>Instagram</p>
+                <p className={styles.infoText}>{contact.instagram}</p>
+              </div>
+            </div>
+
+            <div className={styles.infoItem}>
+              <span className={styles.infoIcon} aria-hidden="true">
+                <img src="/icon-email.png" alt="" />
               </span>
               <div>
                 <p className={styles.infoTitle}>E-mail</p>

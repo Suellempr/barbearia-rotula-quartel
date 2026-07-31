@@ -46,6 +46,10 @@
   color: var(--color-gold);
   font-size: 1.35rem;
 }
+.icon img {
+  width: 16px;
+  height: 16px;
+}
 
 .title {
   font-size: 1.05rem;

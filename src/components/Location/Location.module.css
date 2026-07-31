@@ -39,7 +39,10 @@
   justify-content: center;
   font-size: 1.1rem;
 }
-
+.infoIcon img {
+  width: 16px;
+  height: 16px;
+}
 .infoTitle {
   font-size: 0.78rem;
   letter-spacing: 0.1em;

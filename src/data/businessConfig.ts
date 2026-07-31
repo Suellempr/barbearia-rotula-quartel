@@ -8,22 +8,23 @@ export const businessConfig = {
   slogan: 'Tradição e precisão desde 2023',
 
   // Número do WhatsApp no formato internacional, somente dígitos (DDI + DDD + número)
-  whatsappNumber: '5511999999999',
+  // NUMERO DO MADSON!!
+  whatsappNumber: '554896307169',
 
   address: {
-    street: 'Rua Rótula do Quartel, 123',
-    neighborhood: 'Centro',
-    city: 'São Paulo - SP',
-    zip: '01000-000',
+    street: 'Av. Me. Benvenuta, 22',
+    neighborhood: 'Trindade',
+    city: 'Florianópolis - SC',
+    zip: '88036-500',
     mapsEmbedSrc:
-      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.006!2d-46.6333!3d-23.5505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMzJzAxLjgiUyA0NsKwMzgnMDAuMCJX!5e0!3m2!1spt-BR!2sbr!4v1690000000000',
+      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d221.00143555497!2d-48.52122880518434!3d-27.59281749817619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952739e4f301fd17%3A0x62b58954a21a12ea!2sR%C3%B3tula%20Quartel%20Barbearia!5e0!3m2!1spt-BR!2sbr!4v1785523816467!5m2!1spt-BR!2sbr',
   },
 
   contact: {
-    phone: '(11) 99999-9999',
+    phone: '(48) 99630-7169 ',
     email: 'contato@rotulaquartel.com.br',
-    instagram: '@rotulaquartel',
-    instagramUrl: 'https://instagram.com/rotulaquartel',
+    instagram: '@rotulaquartelbarbearia',
+    instagramUrl: 'https://www.instagram.com/rotulaquartelbarbearia',
   },
 
   hours: {
